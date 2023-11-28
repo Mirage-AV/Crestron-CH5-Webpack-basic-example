@@ -1,0 +1,21 @@
+node_modules
+SPlsWork
+dist
+tsw
+
+# ignore the built output
+*_archive.zip
+*_compiled.zip
+
+# ignore output files (keeping lpz for simplicity
+*.ASV
+*.bin
+*.cdm
+*.clz
+*.sm2
+*.smft
+*.spz
+*.um2
+*.ush
+*.vtz
+*.hash
