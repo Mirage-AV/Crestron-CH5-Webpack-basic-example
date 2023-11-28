@@ -4,14 +4,13 @@ import './styles/main.scss'
 
 import { bridgeReceiveIntegerFromNative, bridgeReceiveBooleanFromNative, bridgeReceiveStringFromNative, bridgeReceiveObjectFromNative }
 from "@crestron/ch5-crcomlib";
-window.CrComLib = CrComLib;
+window.CrComLib = CrComLib; //need this for xpanel subscribeState to work
 window["bridgeReceiveIntegerFromNative"] = bridgeReceiveIntegerFromNative;
 window["bridgeReceiveBooleanFromNative"] = bridgeReceiveBooleanFromNative;
 window["bridgeReceiveStringFromNative"] = bridgeReceiveStringFromNative;
 window["bridgeReceiveObjectFromNative"] = bridgeReceiveObjectFromNative;
 
 //Web Xpanel
-
 const configuration = {
     host: "192.168.1.218",
     ipId: "0x42"
