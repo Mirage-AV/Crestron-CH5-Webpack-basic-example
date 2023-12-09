@@ -8,7 +8,7 @@
         "start": "webpack serve",
         "postinstall": "patch-package",
         "archive": "ch5-cli archive -p ch5Webpack -d dist -o tsw",
-        "deploy": "ch5-cli deploy -p -H 192.168.1.127 -t touchscreen tsw/ch5Webpack.ch5z",
+        "deploy": "ch5-cli deploy -H 192.168.1.127 -t touchscreen tsw/ch5Webpack.ch5z",
         "tsw": "webpack && ch5-cli archive -p ch5Webpack -d dist -o tsw && ch5-cli deploy -p -H 192.168.1.127 -t touchscreen tsw/ch5Webpack.ch5z",
         "control": "webpack && ch5-cli archive -p ch5Webpack -d dist -o tsw && ch5-cli deploy -p -H 192.168.1.218 -t controlsystem tsw/ch5Webpack.ch5z"
     },

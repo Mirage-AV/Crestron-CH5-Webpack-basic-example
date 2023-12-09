@@ -19,3 +19,4 @@ tsw
 *.ush
 *.vtz
 *.hash
+.env
