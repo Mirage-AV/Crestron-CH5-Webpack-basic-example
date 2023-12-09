@@ -14,8 +14,8 @@ const { WebXPanel, isActive, WebXPanelConfigParams, WebXPanelEvents, getVersion,
 
 //Web Xpanel
 const configuration = {
-    host: "192.168.1.223",
-    ipId: "0x04"
+    host: "192.168.1.218",
+    ipId: "0x42"
 }
 
 if (isActive) {
@@ -44,8 +44,7 @@ button.addEventListener("click", function() {
 }); 
 
 
-CrComLib.subscribeState("b", "1",  (value) => {
-    if (value) { button.classList.add("demo--selected"); }
-    else { button.classList.remove("demo--selected"); }
+CrComLib.subscribeState("b", "1", (value) => {
+    if (value) { button.classList.add("demo--selected"); } else { button.classList.remove("demo--selected"); }
 });
 document.getElementById("hello").click();

@@ -2,10 +2,12 @@
 I created this basic project to get the hang of Webpack and some Javascript.
 
 # Info
-Had to limit this to version 2.5.0 of the Crestron crcomlib as 2.6 breaks things
+Now works with 2.6.1 version of the ch5-crcomlib, thanks to Justin Phillips @Crestron.
 
 Edit package.json scripts, replace the IP addresses with the ones for your devices.
 Also edit index.js file for the Web Xpanel configuration to match your processor IP.
+
+If using the dev server (npm run start) you may need to login to the processor using the browser if you have auth enabled before it will work. (Use F12, you'll see link in console if it hasn't been able to login)
 
 # Node modules setup
 Open terminal and use "npm install" command to load all the required packages.
