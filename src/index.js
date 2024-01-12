@@ -13,9 +13,16 @@ window.bridgeReceiveObjectFromNative = CrComLib.bridgeReceiveObjectFromNative;
 const { WebXPanel, isActive, WebXPanelConfigParams, WebXPanelEvents, getVersion, getBuildDate } = getWebXPanel(!runsInContainerApp());
 
 //Web Xpanel
+// authToken for the processor, console to processor "websockettoken" if no result then "websockettoken generate”
+// copy result to authToken: , make sure "userpageauth" is off on the processor
 const configuration = {
     host: "192.168.1.218",
-    ipId: "0x42"
+    ipId: "0x42",
+    port: 49200,
+    roomId: "",
+    tokenSource: "",
+    tokenUrl: "",
+    authToken: ""
 }
 
 if (isActive) {

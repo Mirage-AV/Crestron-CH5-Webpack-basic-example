@@ -2,7 +2,7 @@
 I created this basic project to get the hang of Webpack and some Javascript.
 
 # Info
-Now works with 2.6.1 version of the ch5-crcomlib, thanks to Justin Phillips @Crestron.
+Now works with 2.8.0 version of the ch5-crcomlib, thanks to Justin Phillips @Crestron.
 
 Edit package.json scripts, replace the IP addresses with the ones for your devices.
 Also edit index.js file for the Web Xpanel configuration to match your processor IP.

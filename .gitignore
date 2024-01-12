@@ -20,3 +20,5 @@ tsw
 *.vtz
 *.hash
 .env
+*.ps1
+xpanelPullFromUrl.js
