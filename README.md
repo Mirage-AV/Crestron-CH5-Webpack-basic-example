@@ -10,6 +10,7 @@ Also edit index.js file for the Web Xpanel configuration to match your processor
 If using the dev server (npm run start) you may need to login to the processor using the browser if you have auth enabled before it will work. (Use F12, you'll see link in console if it hasn't been able to login)
 
 To get the ch5z for transfering you need to run build, then archive scripts.
+If you've updated the tsw script, this will handle the build/archive/transfer for you.
 
 # Node modules setup
 Open terminal and use "npm install" command to load all the required packages.
